@@ -1,0 +1,1 @@
+ std::cout << "sizeof(scores) : " << sizeof(scores3) << std::endl;
