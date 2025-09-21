@@ -3,6 +3,6 @@
 ---
 
 ## 📌 Changelog
-> 📝 No changes yet. Stay tuned for future updates!
+> No changes yet. Stay tuned for future updates!
 
 ---
