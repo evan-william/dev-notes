@@ -1,0 +1,83 @@
+Complete List of SQL Commands and Features
+
+1. SQL Basics
+- `SELECT` : Retrieves data from a database.
+- `FROM` : Specifies the table to retrieve data from.
+- `WHERE` : Filters records based on a condition.
+- `ORDER BY` : Sorts the result set.
+- `GROUP BY` : Groups rows that have the same values.
+- `HAVING` : Filters records after grouping.
+- `DISTINCT` : Removes duplicate values.
+
+2. Data Definition Language (DDL)
+- `CREATE TABLE` : Creates a new table.
+- `ALTER TABLE` : Modifies an existing table.
+- `DROP TABLE` : Deletes a table.
+- `TRUNCATE TABLE` : Removes all records from a table.
+
+3. Data Manipulation Language (DML)
+- `INSERT INTO` : Adds new rows.
+- `UPDATE` : Modifies existing records.
+- `DELETE` : Removes records.
+
+4. Data Query Language (DQL)
+- `SELECT * FROM table_name;` : Selects all columns.
+- `SELECT column1, column2 FROM table_name;` : Selects specific columns.
+- `SELECT COUNT(*) FROM table_name;` : Counts total rows.
+
+5. Data Control Language (DCL)
+- `GRANT` : Gives user access privileges.
+- `REVOKE` : Removes user access privileges.
+
+6. Transaction Control Language (TCL)
+- `COMMIT` : Saves the transaction.
+- `ROLLBACK` : Reverts changes.
+- `SAVEPOINT` : Creates a rollback point.
+
+7. Joins
+- `INNER JOIN` : Returns matching rows from both tables.
+- `LEFT JOIN` : Returns all rows from the left table and matching rows from the right table.
+- `RIGHT JOIN` : Returns all rows from the right table and matching rows from the left table.
+- `FULL JOIN` : Returns all rows when there is a match in either table.
+
+8. Constraints
+- `PRIMARY KEY` : Uniquely identifies a record.
+- `FOREIGN KEY` : Ensures referential integrity.
+- `NOT NULL` : Ensures a column cannot have NULL values.
+- `UNIQUE` : Ensures all values are unique.
+- `CHECK` : Ensures a condition is met.
+- `DEFAULT` : Provides a default value.
+
+9. Indexing
+- `CREATE INDEX index_name ON table(column);` : Creates an index.
+- `DROP INDEX index_name;` : Deletes an index.
+
+10. Views
+- `CREATE VIEW view_name AS SELECT column FROM table;` : Creates a virtual table.
+- `DROP VIEW view_name;` : Deletes a view.
+
+11. Stored Procedures
+- `CREATE PROCEDURE procedure_name AS BEGIN SQL END;` : Defines a stored procedure.
+- `EXEC procedure_name;` : Executes a stored procedure.
+
+12. Triggers
+- `CREATE TRIGGER trigger_name BEFORE/AFTER event ON table FOR EACH ROW BEGIN SQL END;` : Defines a trigger.
+- `DROP TRIGGER trigger_name;` : Deletes a trigger.
+
+13. Functions
+- `AVG(column)` : Returns the average value.
+- `SUM(column)` : Returns the sum of values.
+- `MIN(column)` : Returns the minimum value.
+- `MAX(column)` : Returns the maximum value.
+- `COUNT(column)` : Counts the number of rows.
+
+14. Subqueries
+- `SELECT column FROM table WHERE column = (SELECT column FROM table);` : Uses a query inside another query.
+
+15. User Management
+- `CREATE USER 'username'@'host' IDENTIFIED BY 'password';` : Creates a user.
+- `DROP USER 'username'@'host';` : Deletes a user.
+- `SHOW GRANTS FOR 'username'@'host';` : Displays privileges for a user.
+
+This document provides a **complete** reference for **SQL**, useful for quick lookup and learning.
+

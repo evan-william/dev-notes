@@ -1,0 +1,63 @@
+SELECT * FROM mahasiswa;
+INSERT INTO mahasiswa VALUES('111', 'Ra', '1', '2025-04-14')
+# INSERT INTO mahasiswa VALUES('66', 'Shimpanzini Bananini', 'monki')
+
+# CAN ALSO DO
+# UPDATE mahasiswa SET jeniskelamin=2, tgllahir=STR_TO_DATE('2020-01-01', '&Y-&m-&d') WHERE nrp='66' # THIS IF WANT TO CHANGE DATE
+# UPDATE mahasiswa SET jeniskelamin=2  WHERE nrp='66' THIS IF DONT WANT TO CHANGE DATE
+
+# CAN ALSO DO
+# NSERT INTO mahasiswa (nama, nrp) VALUES ('devil', '1234');
+
+# format str_to_date dapat dilihat di: https://www. bla bla bla
+
+# DO THIS TO CHANGE
+# SELECT nrp,nama,tgllahir AS 'tanggal_lahir' FROM mahasiswa 
+# SELECT  nrp, nama AS 'nama lengkap', tgllahir AS 'tanggillll lahir' FROM mahasiswa # EVEN IF NRP NOT CHANGED MUST STILL FILL SO IT CAN SHOW, BASCIALLY LIKE REWRITE
+
+# TO ORDER BASED ON THE COLOUMN 
+# SELECT nrp, nama, tgllahir
+# FROM mahasiswa
+# ORDER BY nama DESC, nrp
+# THIS WILL ORDER THE NAME IN ORDER FROm Z-A cuz DESCENDING, and if same name use NRP ascendingly
+
+	# TO SEE SPECIFICALLY
+	# SELECT nrp, nama, tgllahir
+	# FROM mahasiswa
+	# WHERE name='Robert'
+	# ORDER BY nama DESC, nrp
+	# THIS WILL ORDER THE NAME IN ORDER FROm Z-A cuz DESCENDING, and if same name use NRP ascendingly
+	
+# COUNT VS SUM 
+# COUNT = COUNT JUMLAH DATA
+# SUM = JUMLAH ISI DATA DITAMBAHKAN 
+
+# SELECT COUNT(nrp) FROM mahasiswa
+# WHERE nama='budi';
+
+# CAN DO THIS TO FIND SPECIFIC ALPHABET
+# SELECT * FROM mahasiswa
+# WHERE name LIKE '%d%'
+
+	# CAN DO %d , d%, or %d%
+	
+# SELECT YEAR(tgllahir), nama
+# FROM mahasiswa
+
+
+# TO COUNT AGE
+# SELECT nama, 2025-YEAR(tgllahir) AS umur, tgllahir FROM mahasiswa 
+
+# TO CHANGE DATE TO STR
+# SELECT nama, 2025-YEAR(tgllahir) AS umur, DATE_FORMAT(tgllahir, %M-%D-%Y) AS 'tanggal lahir' FROM MAHASISWA
+
+# CAN ALSO DO THIS
+# SELECT CONCAT('Bpk./Ibu', ' ', nama) as nama  CONCAT IS USED TO COMBINE WORDS
+# FROM mahasiswa
+
+# SELECT INSTR(nama,' '),nama THIS TO FIND ' ' in the name , for example Evan William , so output is 5
+# FROM mahasiswa  
+
+# TO GET FIRST NAME (USING SPACE TO GET IT)
+# SELECT substring(nama, 1,INSTR(nama,' ')) as DEPAN
+# FROM mahasiswa

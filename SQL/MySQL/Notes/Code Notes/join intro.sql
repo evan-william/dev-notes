@@ -1,0 +1,24 @@
+/* TO JOIN 2 TABLE INTO 1 
+LEFT JOIN
+RIGHT JOIN
+FULL JOIN
+
+LEFT OUTER JOIN
+RIGHT OUTER JOIN
+FULL OUTER JOIN
+
+NATURAL JOIN ( THIS IS A REALL GOOD ONE, REMOVE DUPE STUFF )
+*/
+SELECT * FROM "sea_lions" JOIN "migrations" ON "migrations"."id" = "sea_lions"."id"; 
+
+/* LEFT JOIN PRIORITIZE THE FIRST TABLE THAT WE START WITH */
+SELECT * FROM "sea_lions" LEFT JOIN "migrations" ON "migrations"."id" = "sea_lions"."id"; 
+/* IF LEFT HAVE DATA BUT AT THE RIGHT TABLE IT DIDNT HAVE, IT WILL KEEP IT (THE LEFT TABLE) */
+
+/* RIGHT JOIN PRIORITIZE THE 2nd TABLE THAT WE START WITH */
+SELECT * FROM "sea_lions" RIGHT JOIN "migrations" ON "migrations"."id" = "sea_lions"."id"; 
+/* IF RIGHT HAVE DATA BUT AT THE LEFT TABLE IT DIDNT HAVE, IT WILL KEEP IT (THE RIGHT TABLE) */
+
+/* FULL JOIN WILL SHOW ALL , EVEN THE MISSING ONES FULLY */
+SELECT * FROM "sea_lions" FULL JOIN "migrations" ON "migrations"."id" = "sea_lions"."id"; 
+

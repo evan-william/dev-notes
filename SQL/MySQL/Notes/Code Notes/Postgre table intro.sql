@@ -1,0 +1,1 @@
+https://cs50.harvard.edu/sql/2024/notes/6/#creating-the-cards-table
