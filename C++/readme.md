@@ -1,8 +1,11 @@
-### Last Updated: September 21, 2025
+---
+
+## 🗓️ Last Updated  
+**September 21, 2025**
 
 ---
 
-## 📌 Changelog
-- _Currently none_
+## 📌 Changelog  
+*No changes yet*
 
 ---
