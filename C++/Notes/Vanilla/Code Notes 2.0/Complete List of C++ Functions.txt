@@ -1,0 +1,94 @@
+Complete List of C++ Functions and Features
+
+1. C++ Basics
+- `#include <iostream>` : Includes input/output stream.
+- `using namespace std;` : Uses the standard namespace.
+- `int main() {}` : Main function, entry point of a C++ program.
+- `cout <<` : Outputs data to the console.
+- `cin >>` : Takes input from the user.
+- `return 0;` : Indicates successful program termination.
+
+2. Data Types
+- `int` : Integer numbers.
+- `float` : Floating point numbers.
+- `double` : Double precision floating point numbers.
+- `char` : Character type.
+- `string` : String type (requires `#include <string>`).
+- `bool` : Boolean type (`true` or `false`).
+
+3. Variables and Constants
+- `int a = 10;` : Declares an integer variable.
+- `const double PI = 3.14159;` : Declares a constant.
+- `string name = "John";` : Declares a string variable.
+
+4. Operators
+- Arithmetic: `+`, `-`, `*`, `/`, `%`
+- Assignment: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+- Comparison: `==`, `!=`, `>`, `<`, `>=`, `<=`
+- Logical: `&&`, `||`, `!`
+- Bitwise: `&`, `|`, `^`, `~`, `<<`, `>>`
+- Increment/Decrement: `++`, `--`
+
+5. Control Structures
+- `if`, `else if`, `else` : Conditional statements.
+- `switch case` : Multi-way branching.
+- `while` : Loops while a condition is true.
+- `do...while` : Executes at least once.
+- `for` : Loops a fixed number of times.
+- `break` : Exits a loop.
+- `continue` : Skips the current iteration.
+
+6. Functions
+- `void functionName() {}` : Defines a function.
+- `return` : Returns a value from a function.
+- `int add(int a, int b) { return a + b; }` : Function with parameters.
+- `inline` : Suggests compiler to optimize small functions.
+
+7. Arrays and Strings
+- `int arr[5] = {1, 2, 3, 4, 5};` : Declares an array.
+- `string str = "Hello";` : Declares a string.
+- `sizeof(arr)` : Returns the size of an array.
+- `str.length()` : Returns the length of a string.
+
+8. Pointers
+- `int *ptr;` : Declares a pointer.
+- `ptr = &variable;` : Assigns the address of a variable.
+- `*ptr` : Dereferences a pointer.
+- `new` : Allocates memory dynamically.
+- `delete` : Deallocates memory.
+
+9. References
+- `int &ref = var;` : Declares a reference variable.
+
+10. Structures and Classes
+- `struct` : Defines a structure.
+- `class` : Defines a class.
+- `public`, `private`, `protected` : Access specifiers.
+- `this` : Refers to the calling object.
+- `constructor` : Initializes a class object.
+- `destructor` : Cleans up when an object is deleted.
+
+11. Object-Oriented Programming (OOP)
+- `inheritance` : Derives a class from another.
+- `polymorphism` : Multiple functions with the same name.
+- `virtual` : Defines virtual functions for runtime polymorphism.
+- `abstract class` : Contains at least one pure virtual function.
+
+12. Exception Handling
+- `try { } catch (exception e) { }` : Handles exceptions.
+- `throw` : Throws an exception.
+
+13. File Handling
+- `#include <fstream>` : File handling library.
+- `ofstream` : Writes to a file.
+- `ifstream` : Reads from a file.
+- `fstream` : Read/write to a file.
+
+14. Standard Template Library (STL)
+- `vector<int> v;` : Declares a dynamic array.
+- `map<int, string> m;` : Key-value pairs.
+- `set<int> s;` : Stores unique values.
+- `queue<int> q;` : FIFO structure.
+- `stack<int> st;` : LIFO structure.
+
+This document provides a complete reference for C++, useful for quick lookup and learning.
