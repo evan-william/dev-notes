@@ -1,0 +1,5 @@
+Numpy:
+https://www.youtube.com/watch?v=QUT1VHiLmmI
+
+Pandas:
+https://www.youtube.com/watch?v=gtjxAH8uaP0&pp=ygUQcGFuZGFzIHR1dG9yaWFsIA%3D%3D
