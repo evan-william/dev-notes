@@ -1,0 +1,87 @@
+Complete List of Python Functions and Features
+
+1. Python Basics
+- `print()` : Outputs text to the console.
+- `input()` : Takes user input.
+- `type()` : Returns the data type of a variable.
+- `len()` : Returns the length of an object.
+
+2. Data Types
+- `int` : Integer numbers.
+- `float` : Decimal numbers.
+- `str` : Text.
+- `bool` : `True` or `False`.
+- `list` : Ordered, mutable collection.
+- `tuple` : Ordered, immutable collection.
+- `set` : Unordered collection of unique values.
+- `dict` : Key-value pair collection.
+
+3. Variables and Constants
+- `x = 10` : Assigns value to a variable.
+- `CONSTANT = 100` : Convention for constants.
+
+4. Operators
+- Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`, `//`
+- Comparison: `==`, `!=`, `>`, `<`, `>=`, `<=`
+- Logical: `and`, `or`, `not`
+- Assignment: `=`, `+=`, `-=`, `*=`, `/=`, `%=`
+- Identity: `is`, `is not`
+- Membership: `in`, `not in`
+
+5. Control Flow
+- `if`, `elif`, `else` : Conditional statements.
+- `for` : Loops through sequences.
+- `while` : Loops while a condition is true.
+- `break` : Exits a loop.
+- `continue` : Skips current iteration.
+- `pass` : Placeholder for future code.
+
+6. Functions
+- `def function_name():` : Defines a function.
+- `return` : Returns a value from a function.
+- `lambda x: x + 2` : Anonymous function.
+
+7. Lists and Tuples
+- `list.append(x)` : Adds an element.
+- `list.remove(x)` : Removes an element.
+- `list.pop()` : Removes the last element.
+- `list.sort()` : Sorts the list.
+- `tuple.count(x)` : Counts occurrences of x.
+
+8. Dictionaries and Sets
+- `dict.keys()` : Returns all keys.
+- `dict.values()` : Returns all values.
+- `dict.get(key)` : Gets value for a key.
+- `set.add(x)` : Adds an element.
+- `set.remove(x)` : Removes an element.
+
+9. File Handling
+- `open('file.txt', 'r')` : Opens a file.
+- `file.read()` : Reads the file.
+- `file.write(text)` : Writes to a file.
+- `file.close()` : Closes the file.
+
+10. Exception Handling
+- `try-except` : Handles errors.
+- `raise` : Raises an exception.
+- `finally` : Executes code regardless of exception.
+
+11. Object-Oriented Programming
+- `class ClassName:` : Defines a class.
+- `__init__` : Constructor method.
+- `self` : Refers to the instance.
+- `inheritance` : Inherits from another class.
+
+12. Modules and Packages
+- `import module` : Imports a module.
+- `from module import function` : Imports specific function.
+- `pip install package` : Installs a package.
+
+13. Advanced Topics
+- `list comprehension` : `[x for x in range(10)]`
+- `decorators` : `@decorator`
+- `generators` : `yield`
+- `async/await` : Asynchronous programming.
+
+This document provides a **complete** reference for **Python**, useful for quick lookup and learning.
+

@@ -1,0 +1,24 @@
+PARAMETES NOTE
+
+1) print(*objects, sep=' ', end='\n')
+example: 
+- print("Hello, ", end="")
+- print("Hello, ",name,sep="Nigga ")
+
+2) round(number[, ndigits]) #[ ] means it's optional
+example:
+- c = round(a + b)
+- c = round(a / b, 2)
+- c = (a / b)
+  print(f"{c:.2f}")
+
+3) Auto "," turn 1000 to 1,000
+example:
+- a = float(input("What's A? "))
+  b = float(input("What's B? "))
+  c = round(a + b)
+  print(f"{c:,}")
+
+
+
+	

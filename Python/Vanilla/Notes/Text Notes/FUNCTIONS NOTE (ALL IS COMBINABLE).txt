@@ -1,0 +1,24 @@
+FUNCTIONS (ALL IS COMBINABLE INTO 1 LINE)
+
+1) .strip() / .lstrip() / .rstrip()
+2) .capitalize()
+3) .title()
+4) .split()
+   for example: first, middle, last = name3.split(" ")
+5) .lower()
+6) .swapcase()
+7) .split()
+   for example: '1,2,3'.split(',')
+		['1', '2', '3']
+   for example: "cat.jpg"
+		File = "." + File.split(".")[-1]
+		['cat' , 'jpg'] 
+		== jpg 
+8) .replace()
+   for example: words = input("Type something = ").replace(" ","...")
+		print(words)
+9) .keys
+10) .get
+11) .update
+12) .write(name) or whatever , comes with the function open
+		
