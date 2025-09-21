@@ -1,0 +1,3 @@
+run to compile all headers and file needed with g++ main.c++ compare.c++ operations.c++ -o main
+and also .h is just header H for header
+as long as u have the same func name in header that exist in other cpp file, it will work!

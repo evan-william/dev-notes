@@ -1,0 +1,1 @@
+// CHECK set_precision_intro.c++ , IT ALLOWS SET PRECISION
