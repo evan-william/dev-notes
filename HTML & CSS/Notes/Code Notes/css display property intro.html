@@ -1,0 +1,51 @@
+<!--
+IN HTMl THERES 3 TYPE OF ELEMENTS
+1. BLOCK ELEMENT ( TAKES UP AN ENTIRE LINE )
+like <p> 
+
+2. INLINE BLOCK ELEMENT ( ONLY TAKES UP AS MUCH SPACE AS NEEDED)
+like <img> <input>
+
+3. INLINE ELEMENT (APPEAR WITHIN A LINE OF TEXT)
+like <strong> <span> <bold>
+
+WE CAN CHANGE ELEMENTS THO LIKE BELLOW!
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Youtube.com Clone </title>
+        <style>
+            .thumbnail{
+                width: 300px;
+            }
+            .search-bar{
+                font-size: 20px;
+                margin-left: 12px;
+            }
+            .video-title{
+                width: 300px;
+            }
+            .video-author{
+                display: inline-block;
+            }
+            .video-stats{
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <input class="search-bar" placeholder="Search" type="text">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai!
+        </p>
+        <p class="video-author">
+            Marques Brownlee
+        </p>
+        <p class="video-stats">
+            3.4M views &#183; 6 months ago
+        </p>
+    </body>
+</html>

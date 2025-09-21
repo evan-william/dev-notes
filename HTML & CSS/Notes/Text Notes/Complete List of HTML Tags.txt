@@ -1,0 +1,84 @@
+Complete List of HTML Tags and Their Uses
+
+1. Structural Tags
+- `<html>`: Defines the root of an HTML document.
+- `<head>`: Contains metadata, title, links to styles, and scripts.
+- `<title>`: Sets the title of the document.
+- `<body>`: Contains the visible page content.
+
+2. Heading Tags
+- `<h1> to <h6>`: Define headings, `<h1>` being the largest.
+
+3. Text Formatting Tags
+- `<p>`: Defines a paragraph.
+- `<br>`: Inserts a line break.
+- `<hr>`: Inserts a horizontal rule.
+- `<strong>`: Defines important text (bold).
+- `<em>`: Defines emphasized text (italic).
+- `<b>`: Bold text.
+- `<i>`: Italic text.
+- `<u>`: Underlined text.
+- `<mark>`: Highlights text.
+- `<small>`: Defines smaller text.
+- `<del>`: Defines deleted text (strikethrough).
+- `<ins>`: Defines inserted text (underlined by default).
+
+4. Link and Navigation Tags
+- `<a href="URL">`: Creates a hyperlink.
+- `<nav>`: Defines a navigation section.
+
+5. List Tags
+- `<ul>`: Defines an unordered list.
+- `<ol>`: Defines an ordered list.
+- `<li>`: Defines a list item.
+- `<dl>`: Defines a description list.
+- `<dt>`: Defines a term in a description list.
+- `<dd>`: Defines the description of a term.
+
+6. Table Tags
+- `<table>`: Defines a table.
+- `<tr>`: Defines a row in a table.
+- `<th>`: Defines a header cell in a table.
+- `<td>`: Defines a cell in a table.
+- `<caption>`: Provides a table caption.
+- `<thead>`: Groups header content in a table.
+- `<tbody>`: Groups body content in a table.
+- `<tfoot>`: Groups footer content in a table.
+
+7. Form and Input Tags
+- `<form>`: Creates an input form.
+- `<input>`: Defines an input field.
+- `<label>`: Defines a label for an input element.
+- `<textarea>`: Defines a multiline text input control.
+- `<button>`: Defines a clickable button.
+- `<select>`: Defines a dropdown list.
+- `<option>`: Defines an option in a dropdown.
+- `<fieldset>`: Groups related form elements.
+- `<legend>`: Defines a caption for a `<fieldset>`.
+
+8. Media Tags
+- `<img>`: Embeds an image.
+- `<audio>`: Embeds an audio file.
+- `<video>`: Embeds a video file.
+- `<source>`: Specifies multiple media resources.
+- `<track>`: Specifies text tracks for `<video>` and `<audio>`.
+- `<figure>`: Groups media elements.
+- `<figcaption>`: Defines a caption for a `<figure>`.
+
+9. Semantic Tags
+- `<article>`: Defines an article.
+- `<section>`: Defines a section.
+- `<header>`: Defines a header.
+- `<footer>`: Defines a footer.
+- `<aside>`: Defines content aside from the main content.
+- `<main>`: Defines the main content of the document.
+- `<summary>`: Defines a summary for `<details>`.
+- `<details>`: Defines a collapsible content box.
+
+10. Scripting and Metadata Tags
+- `<script>`: Embeds JavaScript.
+- `<noscript>`: Defines content for users with disabled JavaScript.
+- `<link>`: Links external resources like CSS.
+- `<meta>`: Defines metadata for the document.
+- `<style>`: Embeds CSS styles.
+

@@ -1,0 +1,80 @@
+<style>
+    .Subscribe { 
+        background-color: rgb(205, 0, 0);
+        color:white; 
+        border:none;
+        height: 36px;
+        width: 105px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: opacity 1s;
+    }
+
+    .Subscribe:hover{
+        opacity: 0.8;
+    }
+
+    .Subscribe:active{
+        background-color: brown;
+    }
+
+    .Join {
+        background-color: white;
+        border-color: blue;    
+        border-style: solid;
+        border-width: 1px;
+        color:blue;
+        height: 36px;
+        width: 62px;
+        border-radius:2px;
+        cursor: crosshair;
+        transition: background-color 3s,
+            color 1s;
+    }   
+
+    .Join:hover{
+        background-color: blue;
+        color:white;
+    }
+
+    .Join:active{
+        opacity: 0.7;
+    }
+
+    .Tweet{
+        background-color: rgb(54, 138, 228);
+        color:white;
+        height: 36px;
+        width: 78px;
+        border-radius: 18px;
+        cursor: cell;
+        margin-left:10px;
+        border: none;
+        font-weight: bold;
+        font-size: 15px;
+        Transition: box-shadow 1s;
+    }
+
+    .Tweet:hover{
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    }
+</style>
+
+<!--The Button will target all button in the page-->
+<!--Color is changing the text color inside the button-->
+<!--Can click the "red" at beckground color to change color grade-->
+<!--Border radius to make border more rounded-->
+<!--Cursor pointer will change the cursor when cursor on button!-->
+<!--Margin right or whatever is to give space-->
+
+<button class="Subscribe">Subscribe</button>
+<button class="Join">Join</button>
+<button class="Tweet">Tweet</button>
+
+<!--CLass will label it so we can style it seperately-->
+<!--Border style solid is so that the button color is full blue and not grading blue-->
+<!--Border radius = 50% border height for ez round-->
+<!--Hover and Active is pseudo class-->
+<!--rgba(0,0,0,0.6) the last value is opacity of the shadow-->
+<!--box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.15); INSET IS FOR INSIDE BOX SHADOW NOT OUTISDE-->

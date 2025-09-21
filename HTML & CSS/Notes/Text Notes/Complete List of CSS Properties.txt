@@ -1,0 +1,56 @@
+Complete List of CSS Properties and Their Uses
+
+1. Text Styling
+- `color`: Sets the text color.
+- `font-size`: Sets the font size.
+- `font-family`: Defines the font type.
+- `font-weight`: Controls boldness.
+- `font-style`: Controls italicization.
+- `text-align`: Aligns text.
+- `text-decoration`: Adds or removes underline, overline, etc.
+- `text-transform`: Changes text capitalization.
+- `letter-spacing`: Adjusts space between letters.
+- `line-height`: Controls space between lines.
+
+2. Box Model
+- `width`: Sets element width.
+- `height`: Sets element height.
+- `margin`: Defines space around elements.
+- `padding`: Defines space inside an element.
+- `border`: Sets the border.
+- `border-radius`: Rounds the border corners.
+- `box-shadow`: Adds shadow to an element.
+
+3. Positioning and Layout
+- `display`: Defines how elements are displayed (`block`, `inline`, `flex`, etc.).
+- `position`: Defines the positioning (`static`, `relative`, `absolute`, `fixed`).
+- `top`, `bottom`, `left`, `right`: Sets position values.
+- `z-index`: Controls overlapping elements.
+- `overflow`: Handles content overflow (`hidden`, `scroll`, `auto`).
+- `visibility`: Controls visibility (`visible`, `hidden`).
+
+4. Background and Borders
+- `background-color`: Sets background color.
+- `background-image`: Sets a background image.
+- `background-size`: Adjusts image size.
+- `background-repeat`: Controls image repetition.
+- `border-style`: Defines border style (`solid`, `dashed`, `dotted`).
+- `border-width`: Defines border thickness.
+- `border-color`: Sets border color.
+
+5. Flexbox and Grid
+- `display: flex;`: Enables flexbox.
+- `justify-content`: Aligns items horizontally (`flex-start`, `center`, `space-between`).
+- `align-items`: Aligns items vertically.
+- `flex-wrap`: Controls item wrapping.
+- `grid-template-columns`: Defines column layout.
+- `grid-template-rows`: Defines row layout.
+
+6. Transitions and Animations
+- `transition`: Defines animation transition effects.
+- `transform`: Applies transformations (`rotate`, `scale`, `translate`).
+- `animation`: Defines CSS animations.
+- `keyframes`: Defines animation steps.
+
+This document provides a **complete** reference for **HTML and CSS**, useful for quick lookup and learning.
+

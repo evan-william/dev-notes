@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+    </head>
+    <body style="padding-bottom: 1000px;">
+        <!--1st GRID-->
+        <div style="display: grid; grid-template-columns: 100px 100px 200px;">
+          <div style="background-color: lightblue;">Div 1
+
+          </div>
+          <div style="background-color: lightpink;">Div 2
+            <p>
+                Text
+            </p>
+          </div>
+          <div style="background-color: lightblue;">Div 3
+
+          </div>
+        </div>
+
+        <!--2nd GRID-->
+        <div style="display: grid; grid-template-columns: 100px 100px 200px; margin-top: 30px;">
+            <div style="background-color: lightblue;">Div 1
+  
+  
+            </div>
+            <div style="background-color: lightpink;">Div 2
+                <p>
+                    Text
+                </p>
+            </div>
+            <div style="background-color: lightblue;">Div 3
+
+            </div>
+            <div style="background-color: lightpink;">Div 4
+                <p>
+                    SINCE WE ONLY MAKE 1x3 GRID , THIS ONE WILL GO DOWN INSTEAD
+                </p>
+            </div>
+        </div>
+
+        <!--3rd GRID-->
+        <div style="display: grid; grid-template-columns: 100px 1fr; margin-top: 30px;">
+            <div style="background-color: lightblue;">Div 1
+  
+            </div>
+            <div style="background-color: lightpink;">Div 2
+                <p>
+                    1fr means free space and eat all of it 
+                </p>
+            </div>
+        </div>
+
+        <!--4th GRID-->
+        <div style="display: grid; grid-template-columns: 100px 1fr 2fr; margin-top: 30px;">
+            <div style="background-color: lightblue;">Div 1
+  
+            </div>
+            <div style="background-color: lightpink;">Div 2
+                <p>
+                    1fr means free space and eat all of it 
+                </p>
+            </div>
+            <div style="background-color: lightblue;">Div 3
+                <p>
+                    2fr means free space and eat all of it 
+                </p>
+            </div>
+        </div>
+
+         <!--5th GRID-->
+         <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; margin-top: 30px; column-gap: 20px; row-gap: 40px;">
+            <div style="background-color: lightblue; height: 200px;">Div 1
+                <p>
+                    1 fr
+                </p>
+            </div>
+            <div style="background-color: lightpink; height: 200px">Div 2
+                <p>
+                    1fr 
+                </p>
+            </div>
+            <div style="background-color: lightblue; height: 200px">Div 3
+                <p>
+                    1 fr
+                </p>
+            </div>
+            <div style="background-color: lightpink; height: 200px">Div 4
+                <p>
+                    1fr 
+                </p>
+            </div>
+            <div style="background-color: lightblue; height: 200px">Div 5
+                <p>
+                    1fr 
+                </p>
+            </div>
+            <div style="background-color: lightpink; height: 200px">Div 6
+                <p>
+                    1 fr
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
+
+<!-- GRID IS A LAYOUT THAT HAVE ROWS AND COLUMNS-->
+<!--
+2 x 3 Grid
+[][][]
+[][][]
+-->
+<!-- DIV INSIDE A GRID WILL NOT BECOME BLOCK DISPLAY-->
+<!-- 100px 100px will creare 1x2 grid-->

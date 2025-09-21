@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Flexbox Practice </title>
+    </head>
+    <body style="padding-bottom: 1000px;"">
+        <!--FLEX BOX 1-->
+        <div style=" display: flex; flex-direction: row; margin-top: 30px;"> 
+            <div style="background-color: lightblue;">
+                Div 1 Text
+            </div>
+            <div style="background-color: lightpink;">
+                Div 2<p> Text</p>
+            </div>
+        </div>
+
+        <!--FLEX BOX 2-->
+        <div style=" display: flex; flex-direction: row; margin-top: 30px;"> 
+            <div style="background-color: lightblue; width:100px">
+                100px
+            </div>
+            <div style="background-color: lightpink; flex: 1;">
+                Flex
+            </div>
+        </div>
+
+        <!--FLEX BOX 3-->
+        <div style=" display: flex; flex-direction: row; margin-top: 30px;"> 
+            <div style="background-color: lightblue; width:100px">
+                100px
+            </div>
+            <div style="background-color: lightpink; flex: 1;">
+                flex: 1
+            </div>
+            <div style="background-color: lightblue; flex: 2;">
+                flex: 2
+            </div>
+        </div>
+
+        <!--FLEX BOX 4-->
+        <div style=" 
+            display: flex; 
+            flex-direction: row; 
+            margin-top: 30px; 
+            height: 70px; 
+            border-width: 1px; 
+            border-style: solid; 
+            border-color: gray;
+            justify-content: center;
+        "> 
+            <div style="background-color: lightblue; width: 100px;">
+                100px
+            </div>
+            <div style="background-color: lightpink; width: 100px;">
+                100px
+            </div>
+            <div style="background-color: lightblue; width: 100px;">
+                100px
+            </div>
+        </div>
+
+        <!--FLEX BOX 5-->
+        <div style=" 
+            display: flex; 
+            flex-direction: row; 
+            margin-top: 30px; 
+            height: 70px; 
+            border-width: 1px; 
+            border-style: solid; 
+            border-color: gray;
+            justify-content: space-between;
+        "> 
+            <div style="background-color: lightblue; width: 100px;">
+                100px
+            </div>
+            <div style="background-color: lightpink; width: 100px;">
+                100px
+            </div>
+            <div style="background-color: lightblue; width: 100px;">
+                100px
+            </div>
+        </div>
+
+        <!--FLEX BOX 6-->
+        <div style=" 
+            display: flex; 
+            flex-direction: row; 
+            margin-top: 30px; 
+            height: 70px; 
+            border-width: 1px; 
+            border-style: solid; 
+            border-color: gray;
+            justify-content: space-between;
+            align-items: center;
+        "> 
+            <div style="background-color: lightblue; width: 100px;">
+                100px
+            </div>
+            <div style="background-color: lightpink; width: 100px;">
+                100px
+            </div>
+            <div style="background-color: lightblue; width: 100px;">
+                100px
+            </div>
+        </div>
+    </body>
+</html>
+
+<!--Diff with 1fr is this one can be moved around-->
+<!--
+.right-section{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+SHRINK IS TO PREVENT CNTENT SHRINKING WHEN PAGE IS SMALLER 
+-->
