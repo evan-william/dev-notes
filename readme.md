@@ -1,4 +1,4 @@
-# 📝 My Notes Repo
+# ➤ My Notes Repo
 
 Hey there! This is where I keep all my notes, snippets, and experiments.  
 It’s basically my personal knowledge base, covering different **languages, frameworks, and libraries** I’ve learned or explored.  
