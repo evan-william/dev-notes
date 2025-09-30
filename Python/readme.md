@@ -1,8 +1,6 @@
-### Last Updated: September 21, 2025
+### Last Updated: October 1, 2025
 
 ---
 
 ## 📌 Changelog
-> No changes yet. Stay tuned for future updates!
-
----
+> - Added **Scikit-Learn Notes** repo
