@@ -3,6 +3,6 @@
 ---
 
 ## 📌 Changelog
-> - Added **Scikit-Learn Notes** repo
+> - Added **Scikit-Learn Notes** folder
 
 ---
